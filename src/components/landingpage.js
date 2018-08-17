@@ -12,6 +12,10 @@ class Landing extends Component {
               alt="react logo"
               className="avatar-img"
             />
+            <div className="banner-text">
+              <h1>Full Stack Web Developer</h1>
+              <hr/>
+            </div>
           </Cell>
         </Grid>
       </div>
