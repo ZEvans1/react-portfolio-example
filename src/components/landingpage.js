@@ -6,7 +6,13 @@ class Landing extends Component {
     return (
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}></Cell>
+          <Cell col={12}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+              alt="react logo"
+              className="avatar-img"
+            />
+          </Cell>
         </Grid>
       </div>
     )
