@@ -9,6 +9,40 @@ class Projects extends Component {
     }
   }
 
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return(
+        <div>
+          <h1>This is 0</h1>
+        </div>
+      )
+    } else if(this.state.activeTab === 1) {
+      return(
+        <div>
+          <h1>This is 1</h1>
+        </div>
+      )
+    } else if (this.state.activeTab === 2) {
+      return(
+        <div>
+          <h1>This is 2</h1>
+        </div>
+      )
+    } else if (this.state.activeTab === 3) {
+      return(
+        <div>
+          <h1>This is 3</h1>
+        </div>
+      )
+    } else {
+      return(
+        <div>
+          <h1>This is 0</h1>
+        </div>
+      )
+    }
+  }
+
   render() {
     return(
       <div className="category-tabs">
@@ -18,6 +52,10 @@ class Projects extends Component {
           <Tab>Vue.js</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
+
+        <section className="projects-grid">
+          {this.toggleCategories()}
+        </section>
       </div>
     )
   }
