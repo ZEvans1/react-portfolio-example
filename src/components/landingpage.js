@@ -17,11 +17,11 @@ class Landing extends Component {
               <hr/>
               <p>HTML/CSS | JavaScript | React | Python | AWS</p>
               <div className="social-links">
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.linkedin.com/in/zach-t-evans/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true"/>
                 </a>
 
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/ZEvans1" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
 
