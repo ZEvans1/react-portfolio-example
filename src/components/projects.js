@@ -12,18 +12,33 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return(
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover'}}>React Project</CardTitle>
-          <CardText>This is some card text that I am just filling in here instead of using lorem ipsum.</CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>Codepen</Button>
-            <Button colored>Livedemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share"></IconButton>
-          </CardMenu>
-        </Card>
+        <div className="projects-grid">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover'}}>React Project</CardTitle>
+            <CardText>This is some card text that I am just filling in here instead of using lorem ipsum.</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Codepen</Button>
+              <Button colored>Livedemo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share"></IconButton>
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover'}}>React Project</CardTitle>
+            <CardText>This is some card text that I am just filling in here instead of using lorem ipsum.</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Codepen</Button>
+              <Button colored>Livedemo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share"></IconButton>
+            </CardMenu>
+          </Card>
+        </div>
+        
       )
     } else if(this.state.activeTab === 1) {
       return(
@@ -63,7 +78,7 @@ class Projects extends Component {
         </Tabs>
 
         <section className="projects-grid">
-          <Grid className="projects-grid">
+          <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
