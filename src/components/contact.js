@@ -19,16 +19,16 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Quicksand'}}>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Quicksand'}}>
                   <i className="fa fa-phone-square" aria-hidden="true"/>
                   503-784-0039
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Quicksand'}}>
+                  <i className="fa fa-envelope" aria-hidden="true"/>
+                  zte.zachary@gmail.com
+                  </ListItemContent>
                 </ListItem>
               </List>
             </div>
