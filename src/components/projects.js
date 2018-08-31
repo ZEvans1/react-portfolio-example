@@ -13,7 +13,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return(
         <div className="projects-grid">
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: "auto" }}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover'}}>React Project</CardTitle>
             <CardText>This is some card text that I am just filling in here instead of using lorem ipsum.</CardText>
             <CardActions border>
