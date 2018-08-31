@@ -76,6 +76,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
 .projects-grid {
   display: flex;
 }
