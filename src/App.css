@@ -68,6 +68,14 @@
   margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .projects-grid {
   display: flex;
 }
