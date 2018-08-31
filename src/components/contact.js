@@ -16,17 +16,22 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
-            <List>
-              <ListItem>
-                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-            </List>
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Quicksand'}}>
+                  <i className="fa fa-phone-square" aria-hidden="true"/>
+                  503-784-0039
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                </ListItem>
+              </List>
+            </div>
           </Cell>
         </Grid>
       </div>
