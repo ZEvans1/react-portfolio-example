@@ -89,6 +89,11 @@
   display: flex;
 }
 
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
 .social-links {
   display: flex;
   justify-content: space-between;
